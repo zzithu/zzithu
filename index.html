@@ -1,32 +1,44 @@
-<section id="project-documentation">
-    <h2>Project Documentation</h2>
-    <p>Here’s the documentation for my project, including important diagrams:</p>
 
-    <!-- Embed the PDF for larger screens -->
-    <div class="pdf-container">
-        <iframe src="docs/ebsalesDocs.pdf" width="600" height="500" style="border: none;" class="desktop-pdf">
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="docs/ebsalesDocs.pdf">Download First PDF</a>
-        </iframe>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-    <!-- Link to download for smaller screens -->
-    <a href="docs/ebsalesDocs.pdf" class="mobile-download">Download First PDF</a>
-
-    <style>
-        /* Hide the download link on desktop */
-        .mobile-download {
-            display: none;
-        }
-
-        /* Show the download link on mobile */
-        @media (max-width: 768px) {
-            .desktop-pdf {
-                display: none; /* Hide the PDF iframe on mobile */
-            }
+<body>
+    <section id="project-documentation">
+        <h2>Project Documentation</h2>
+        <p>Here’s the documentation for my project, including important diagrams:</p>
+    
+        <!-- Embed the PDF for larger screens -->
+        <div class="pdf-container">
+            <iframe src="docs/ebsalesDocs.pdf" width="600" height="500" style="border: none;" class="desktop-pdf">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="docs/ebsalesDocs.pdf">Download First PDF</a>
+            </iframe>
+        </div>
+    
+        <!-- Link to download for smaller screens -->
+        <a href="docs/ebsalesDocs.pdf" class="mobile-download">Download First PDF</a>
+    
+        <style>
+            /* Hide the download link on desktop */
             .mobile-download {
-                display: block; /* Show the download link */
+                display: none;
             }
-        }
-    </style>
-</section>
+    
+            /* Show the download link on mobile */
+            @media (max-width: 768px) {
+                .desktop-pdf {
+                    display: none; /* Hide the PDF iframe on mobile */
+                }
+                .mobile-download {
+                    display: block; /* Show the download link */
+                }
+            }
+        </style>
+    </section>
+</body>
+</html>
+
