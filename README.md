@@ -1,16 +1,14 @@
-## Hi there 👋
+## Hi, I'm Steven 🦞
     
-<!--
-**zzithu/zzithu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## What I’m Working On 💣
+    Currently, I am exploring graphics with OpenGL and SDL.
 
-Here are some ideas to get you started:
+    My plan is to utilize these within passion projects, and for a dynamic audio visualizer.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## My Interests ⚙️
+    Computers are at the forefront of my interests with Cars and music being close seconds. 
+
+## Aspirations 💥
+    I want my work to have an impact, and to share my knowledge when possible. Along with this, I hope to develop a true game during my career.
+    
+## Feel Free to Browse 🚀
