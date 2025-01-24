@@ -14,6 +14,5 @@
 ## Feel Free to Browse 🚀
 
 ## Other Account(s)
-
-    Here -> [luweno](https://github.com/luweno).
+Here -> [luweno](https://github.com/luweno).
 
