@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  background: linear-gradient(145deg, #3b2f2f, #1a120e); /* dark roasted coffee look */
+  color: #f5f2e8;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+  color: #decba4; /* light golden highlight */
+}
+
+.project-section {
+  margin-bottom: 2.5em;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.section-header {
+  width: 100%;
+  padding: 1em;
+  background: #2a1f1a;
+  color: #decba4;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.section-header:hover {
+  background: #3e2d25;
+}
+
+.project-container {
+  background: #241a16;
+  padding: 1.5
+}
+
+#nav {
+    text-align: right;
+    margin-bottom: 1em;
+  }
+  
+  .nav-link {
+    color: #b38fce;
+    background: #2a1f1a;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .nav-link:hover {
+    background: #3e2d25;
+    text-decoration: underline;
+  }
+  

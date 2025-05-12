@@ -1,37 +1,18 @@
-
-<!DOCTYPE html>
-<html>
 <head>
-    <script>//This code was made by chatgpt :></script>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/projects-style.css">
 </head>
 
 <body>
-<h1>Steven's Portfolio </h1> 
-    <div class="dropdown">
-        <button onclick="toggleDropdown()">Select Project to View</button>
-        <div id="Project Documentations" class="dropdown-content">
-        <a href="docs/ebsalesDocs.pdf" target="_blank">Ebsales</a>
-        <a href="docs/gameEngine.pdf" target="_blank">Game Engine</a>
-        <a href="docs/ebsalesDocs.pdf" target="_blank">Test</a>
+    <h1>My Projects</h1>
+    <div id="projects-root"></div>
+  
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
 
-        <script>
-            function toggleDropdown() {
-            document.getElementById("myDropdown").classList.toggle("show");
-            }
-            
-            // Close the dropdown if clicked outside
-            window.onclick = function(event) {
-            if (!event.target.matches('.dropdown button')) {
-                const dropdowns = document.getElementsByClassName("dropdown-content");
-                for (let i = 0; i < dropdowns.length; i++) {
-                const openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-                }
-            }
-            }
-        </script>
-</body>
-</html>
+    <div id="nav">
+        <a href="old.html" class="nav-link">Old Projects View</a>
+    </div>
+      
+    
+  </body>
+  
